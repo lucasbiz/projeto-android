@@ -26,13 +26,8 @@
 }
 
 body{
-    margin: 0px;
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
-}
-
-header, main, footer {
-    min-width: 450px;
 }
 
 header {
@@ -57,7 +52,6 @@ header > p{
     text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    margin-bottom: 0px;
     padding-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
 
@@ -88,6 +82,7 @@ nav > a:hover{
 }
 
 main{
+    min-width: 400px;
     max-width: 850px;
     margin: auto;
     margin-bottom: 20px;
