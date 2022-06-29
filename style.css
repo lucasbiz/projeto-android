@@ -46,6 +46,7 @@ header > h1 {
     font-size: 40px;
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    min-width: 350px;
 
 }
 
@@ -56,6 +57,8 @@ header > p{
     margin-bottom: 0px;
     padding-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    min-width: 350px;
+
 
 }
 
