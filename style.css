@@ -31,8 +31,11 @@ body{
     font-family: var(--fonte-padrao);
 }
 
+header, main, footer {
+    min-width: 400px;
+}
+
 header {
-    min-width: 600px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
     min-height: 150px;
@@ -87,7 +90,6 @@ nav > a:hover{
 
 main{
     max-width: 850px;
-    min-width: 400px;
     margin: auto;
     margin-bottom: 20px;
     padding: 15px 20px ;
@@ -205,7 +207,6 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    min-width: 400px;
 }
 
 abbr{
